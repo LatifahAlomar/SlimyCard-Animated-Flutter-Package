@@ -255,7 +255,6 @@ class _SlimyCardState extends State<SlimyCard> with TickerProviderStateMixin {
                 Container(
                   height: 35,
                   width: 150,
-                  padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
                   child: Center(
                     child: Text(
                       'read description',
@@ -267,7 +266,7 @@ class _SlimyCardState extends State<SlimyCard> with TickerProviderStateMixin {
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.2),
+                        color: Colors.black.withOpacity(0.15),
                         blurRadius: 20,
                         spreadRadius: 1,
                       ),
