@@ -253,8 +253,9 @@ class _SlimyCardState extends State<SlimyCard> with TickerProviderStateMixin {
                       : 0,
                 ),
                 Container(
-                  height: 30,
-                  width: 300,
+                  height: 35,
+                  width: 200,
+                  padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
                   child: Text('read description'),
                   decoration: BoxDecoration(
                     color: Colors.white,
